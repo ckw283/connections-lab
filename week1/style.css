@@ -1,0 +1,105 @@
+.project {
+    width: 100%;
+    margin-top: 30px;
+}
+
+body {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.heading {
+    font-family: Lilita One;
+}
+
+h1 {
+    font-size: 72px;
+    text-align: center;
+    margin: 20px;
+}
+
+h2 {
+    font-size: 48px;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.workout_thumbnail {
+    max-width: 100%;
+    height: auto;
+    animation-name: tilt;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.workoutchoice {
+    background-color: white;
+    border-radius: 15px;
+    width: 30%;
+    display: inline-block;
+    font-family: Balsamiq Sans;
+    
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.buttontext {
+    font-family: Balsamiq Sans;
+}
+
+button {
+    border-radius: 5px;
+}
+
+p {
+    font-family: Balsamiq Sans;
+    text-align: center;
+}
+
+.affirmation {
+    font-size: 72px;
+}
+
+.affirmbutton {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes tilt {
+    0% {
+        transform: rotate(0turn);
+    }
+    49% {
+        transform: rotate(0turn);
+    }
+    50% {
+        transform: rotate(0.1turn);
+    }
+    99% {
+        transform: rotate(0.1turn);
+    }
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
+@media (max-width: 610px) {
+    .workoutchoice {
+        background-color: white;
+        border-radius: 15px;
+        width: 30%;
+        display: flex;
+        font-family: Balsamiq Sans;
+    }
+}
