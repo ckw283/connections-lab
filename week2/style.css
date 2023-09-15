@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+p {
+    font-family: Balsamiq Sans;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 64px;
+}
+
+.lightSentence {
+    color: white;
+}
+
+.darkSentence {
+    color: black;
+}
+
+img {
+    width: 30%;
+}
+
+div {
+    display: flex;
+}
+
+#smiskileft {
+    align-items: flex-start;
+}
+
+#smiskiright {
+    align-items: flex-end;
+}
+
+#lightswitch {
+    align-items: center;
+}
